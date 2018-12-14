@@ -1,2 +1,2 @@
-# miniinsta
-See repo sisaldab Andmebaaside kursuse klientrakendust
+npm i       <- install
+npm start   <- start node app
