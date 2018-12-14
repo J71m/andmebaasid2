@@ -1,0 +1,23 @@
+{
+  "name": "petsitter",
+  "version": "1.0.0",
+  "description": "Pisike vaheliides andmebaasile",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js",
+    "start-server": "node app.js"
+  },
+  "author": "TJ",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.18.3"
+  },
+  "dependencies": {
+    "express": "^4.16.2",
+    "hbs": "^4.0.1",
+    "morgan": "^1.9.0",
+    "mssql": "^4.1.0",
+    "redis": "^2.8.0"
+  }
+}
