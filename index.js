@@ -21,15 +21,10 @@ app.get('/api', routes.apiIndex);
 // app.get('/api/users/:id([0-9]{1,9})?', routes.usersByID);
 // app.get('/api/users/:username?', routes.usersByUsername);
 app.get('/api/users/:id?', routes.users);
-app.get('/api/users_insecure/:id?', routes.usersInsecure);
-
-app.get('/api/frontpage', routes.frontpage);
-app.get('/api/profile/:id', routes.profilePage);
 app.get('/api/posts/:id', routes.postDetails);
-app.get('/api/stats', routes.statistics);
-app.get('/api/stats/top10/commentedusers', routes.top10CommentedUsers);
-app.get('/api/stats/registrations', routes.userRegistrations);
-app.get('/api/stats/genderdivision', routes.genderDivision);
+app.get('/api/stats/humanratings', routes.humanratings);
+app.get('/api/stats/animalratings/:type', routes.animalratings);
+app.get('/api/stats/experiencedsitters', routes.experiencedSitters);
 
 // Default route when nothing else was found
 app.get('*', routes.default);
