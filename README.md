@@ -1,3 +1,1 @@
-npm i       <- install
-
-npm start   <- start node app
+# npm start
